@@ -185,7 +185,7 @@ address {
 }
 
 /* line 81, ../../../../tkz_scss/_tkz_scss_core/_reset.scss */
-article,
+
 aside,
 details,
 figcaption,
@@ -198,6 +198,39 @@ nav,
 section,
 pre {
   display: block;
+}
+article {
+ /*background: #EFF5FB;
+ border: 1px solid #999999;*/
+ padding: 20px;
+ margin-bottom: 15px;
+}
+sumary{
+	font-family: "Unit", sans-serif;
+	display:block;
+	font-weight: bold;
+	color: #fff;
+	font-size: 14vw;
+	cursor: pointer;
+}
+details{
+	font-family: "Icons", sans-serif;
+	font-size: 1.125rem;
+	position: relative;
+	/*border:1px solid #93CEE3;*/
+	padding: 5px;
+	/*font-family: verdana;*/
+	/*margin-bottom: 5px;*/
+	width: auto;
+  min-width: 570px;
+  max-width: 1148px;
+	background-color: #F3F3F3;
+}
+p:nth-child(odd){
+ background: #ffffff;
+}
+p:nth-child(even){
+ background: #ffffff;
 }
 
 /* line 95, ../../../../tkz_scss/_tkz_scss_core/_reset.scss */
